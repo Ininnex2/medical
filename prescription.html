@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prescription.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="sidebar">
+
+        <div class="logo">
+            <img src="" alt="ccc">
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="profile">
+            <img src="my bitmoji.jpg" alt="">
+            <p>Super Admin</p>
+
+        </div>
+        <br>
+        <hr>
+        <ul>
+            <li><a href="dashboard.html" class="hover"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+            <li><a href="" class="hover"><i class='bx bx-laptop'></i>Device</a></li>
+            <li><a href="doctorinfo.html" class="hover"><i class='bx bx-plus-medical'></i>Doctor</a></li>
+            <li><a href="addpatient.html" class="hover"><i class='bx bxs-user'></i>Patient</a></li>
+            <li><a href="" class="hover"><i class='bx bxs-calendar'></i>Doctor Schedule</a></li>
+            <li><a href="patappinfo.html" class="hover"><i class='bx bx-calendar-check'></i>Patient Appointment</a></li>
+            <li><a href="" class="hover"><i class='bx bxs-paste'></i>Patient case studies</a></li>
+            <li><a href="prescription.html" class="hover"><i class='bx bxs-capsule'></i>Prescription</a></li>
+        </ul>
+        <div class="logout">
+            <a href="#"><i class='bx bx-exit'></i>Logout</a>
+        </div>
+
+    </div>
+    <div class="content">
+        <div class="topnavbar">
+            <a href=""><i class='bx bx-globe'></i>Go to website</a>
+            <div class="nav2">
+                <ul>
+                    <li><a href=""><i class='bx bx-conversation'></i>Chat with us</a></li>
+                    <li><a href=""><i class='bx bx-health'></i>HealthEase</a></li>
+                    <li><a href=""><i class='bx bxs-user-circle'></i>Mr Patient</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="formdivs">
+            <h2>Add Prescription</h2>
+            <form>
+
+                <div class="selectpatient">
+                    <label>Select Patient</label><br>
+                    <select>
+                        <option>Mr Patient</option>
+                    </select>
+                </div>
+
+
+                <div class="prescription date">
+                    <label>Prescription Date</label><br>
+                    <input type="text" placeholder="date" name="name">
+
+                </div>
+                <div class="buttondiv span">
+                    <button> <i class='bx bxs-calendar'></i>Case Study</button>
+                </div>
+                <div class="weight">
+                    <label>Weight (kg)</label><br>
+                    <input type="text" placeholder="Weight (kg)" name="name">
+
+                </div>
+                <div class="height">
+                    <label>Height(feet)</label><br>
+                    <input type="text" placeholder="Height(feet)" name="name">
+
+                </div>
+                <div class="bloodpressure">
+                    <label>Blood Pressure</label><br>
+                    <input type="text" placeholder="Blood Pressure" name="name">
+
+                </div>
+                <div class="diabetic">
+                    <label>Diabetic</label><br>
+                    <input type="text" placeholder="Surgery" name="name">
+
+                </div>
+                <div class="chief compliant span">
+                    <label>Chief compliant</label><br>
+                    <textarea placeholder="Chief complaint"></textarea>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
